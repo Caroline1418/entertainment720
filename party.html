@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Foundation -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+      integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I="
+      crossorigin="anonymous"
+    />
+    <!-- Foundation Prototype -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-prototype.min.css"
+      integrity="sha256-BiKflOunI0SIxlTOOUCQ0HgwXrRrRwBkIYppEllPIok="
+      crossorigin="anonymous"
+    />
+    <!-- local stylesheet -->
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Entertainment 720</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="menu menu-hover-lines align-center">
+        <li><a href="./index.html">home</a></li>
+        <li><a href="./about-us.html">about us</a></li>
+        <li><a href="#">party</a></li>
+        <li><a href="https://www.redbubble.com/shop/entertainment+720" target="_blank">merch</a></li>
+      </ul>
+    </nav>
+    <main>
+      <header>
+        <h1 class="gold-title text-center">Party Time</h1>
+      </header>
+      <section class="logos-container grid-x align-spaced align-stretch">
+        <h2 class="cell grid-x align-center text-center">Memes or Videos?</h2>
+        <div class="img-container cell small-6">
+          <img
+            onclick="window.location.href='./meme.html'"
+            class="logo"
+            src="./assets/images/meme.png"
+            alt="meme Logo"
+          />
+        </div>
+        <div class="img-container cell small-6">
+          <img
+            onclick="window.location.href='./youtube.html'"
+            class="logo"
+            src="./assets/images/youtube.png"
+            alt="YouTube Logo"
+          />
+        </div>
+      </section>
+    </main>
+    <footer class="text-right">
+      <small>&copy; Copyright 2021, Entertainment 720 Inc.</small>
+    </footer>
+
+    <!--scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./assets/js/meme.js"></script>
+    <script src="./assets/js/youtube.js"></script>
+  </body>
+</html>
